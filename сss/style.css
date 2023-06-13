@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+   
+}
+
+.wrapper {
+    width: 100%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.header {
+    background-color: #192A66;
+}
+
+.header__title {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 203px;
+    padding-bottom: 123px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 246px;
+    border: none;
+    height: 90px;
+    padding-left: 22px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #ABABAB;
+}
+
+.search-form__input {
+    margin-bottom: 43px;
+}
+
+.from {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.passengers {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.search-form__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-form__btn button {
+    width: 264px;
+    height: 77px;
+    background: #E3C8C8;
+    border-radius: 15px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.content__title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    padding-top: 109px;
+    padding-bottom: 65px;
+}
+
+ul.places li {
+    display: inline-block;
+    margin: 35px;
+}
+.places{
+    display: flex;
+    justify-content: center;
+}
+.place a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.place-title{
+    font-size: 24px;
+    padding-top: 23px;
+    padding-bottom: 13px;
+    font-weight: 600;
+}
+
+.place__city{
+    font-size: 20px;
+    padding-bottom: 53px;
+}

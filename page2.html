@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/сss/style2.css">
+    <title>Airport</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__search-form">
+                <form name="search" action="/page2.html">
+                    <input type="text" name="from" placeholder="Откуда" class="from" id="from">
+                    <input type="text" name="where" placeholder="Куда">
+                    <input type="date" name="date" placeholder="Дата" id="date">
+                    <input type="number" name="passengers" placeholder="Количество пассажиров" class="passengers"
+                        id="passengers">
+                    <button class="search-form__btn">Поиск</button>
+                </form>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <div class="content__title">
+                    <h2>Найденные билеты</h2>
+                </div>
+                <div class="content__tickets">
+                    <div class="ticket">
+                        <div class="ticket__price">
+                            <span class="price" id="price">860 Br.</span>
+                            <span class="select" id="select"><a href="#ticket">Выбрать билет</a></span>
+                        </div>
+                        <div class="ticket__info">
+                            <span class="plane-type" id="plane-type">Boeing 737-8</span>
+                            <div class="flight-info">
+                                <div class="departure-city">
+                                    <div class="departure-time" id="departure-time">22:30</div>
+                                    <div class="departure-city-info" id="departure-city-info">Минск, 17 апр.</div>
+                                </div>
+                                <div class="route-image"><img src="./img/Group 11.png" alt="route"></div>
+                                <div class="arrival-city">
+                                    <div class="arrival-time" id="arrival-time">14:20</div>
+                                    <div class="arrival-city-info" id="arrival-city-info">Анталья, 18 апр.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ticket">
+                        <div class="ticket__price">
+                            <span class="price">860 Br.</span>
+                            <span class="select"><a href="#ticket">Выбрать билет</a></span>
+                        </div>
+                        <div class="ticket__info">
+                            <span class="plane-type">Boeing 737-8</span>
+                            <div class="flight-info">
+                                <div class="departure-city">
+                                    <div class="departure-time">22:30</div>
+                                    <div class="departure-city-info">Минск, 17 апр.</div>
+                                </div>
+                                <div class="route-image"><img src="./img/Group 11.png" alt="route"></div>
+                                <div class="arrival-city">
+                                    <div class="arrival-time">14:20</div>
+                                    <div class="arrival-city-info">Анталья, 18 апр.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ticket">
+                        <div class="ticket__price">
+                            <span class="price">860 Br.</span>
+                            <span class="select"><a href="#ticket">Выбрать билет</a></span>
+                        </div>
+                        <div class="ticket__info">
+                            <span class="plane-type">Boeing 737-8</span>
+                            <div class="flight-info">
+                                <div class="departure-city">
+                                    <div class="departure-time">22:30</div>
+                                    <div class="departure-city-info">Минск, 17 апр.</div>
+                                </div>
+                                <div class="route-image"><img src="./img/Group 11.png" alt="route"></div>
+                                <div class="arrival-city">
+                                    <div class="arrival-time">14:20</div>
+                                    <div class="arrival-city-info">Анталья, 18 апр.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
